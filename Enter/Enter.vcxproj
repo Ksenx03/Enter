@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <ProjectGuid>{D6A862F2-D4DA-4208-8BC3-52B2B1F7C506}</ProjectGuid>
+    <EnableManagedPackageReferenceSupport>true</EnableManagedPackageReferenceSupport>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>Enter</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="My2023.cpp" />
+    <ClCompile Include="Diploma.cpp" />
+    <ClCompile Include="Info.cpp" />
+    <ClCompile Include="Library.cpp" />
+    <ClCompile Include="My2024.cpp" />
+    <ClCompile Include="My2025.cpp" />
+    <ClCompile Include="My2026.cpp" />
+    <ClCompile Include="MyForm.cpp" />
+    <ClCompile Include="MyForm1.cpp" />
+    <ClCompile Include="MyMenu.cpp" />
+    <ClCompile Include="Practice.cpp" />
+    <ClCompile Include="Zus.cpp" />
+    <ClCompile Include="Science.cpp" />
+    <ClCompile Include="Sem1.cpp" />
+    <ClCompile Include="Sem2.cpp" />
+    <ClCompile Include="Sem3.cpp" />
+    <ClCompile Include="Sem4.cpp" />
+    <ClCompile Include="Sem5.cpp" />
+    <ClCompile Include="Sem6.cpp" />
+    <ClCompile Include="Sem7.cpp" />
+    <ClCompile Include="Subjects.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="My2023.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Diploma.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Info.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Library.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="My2024.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="My2025.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="My2026.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="MyForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="MyForm1.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="MyMenu.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Practice.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Zus.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Science.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Sem1.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Sem2.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Sem3.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Sem4.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Sem5.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Sem6.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Sem7.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Subjects.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My2023.resx">
+      <DependentUpon>My2023.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Diploma.resx">
+      <DependentUpon>Diploma.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Info.resx">
+      <DependentUpon>Info.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Library.resx">
+      <DependentUpon>Library.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My2024.resx">
+      <DependentUpon>My2024.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My2025.resx">
+      <DependentUpon>My2025.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My2026.resx">
+      <DependentUpon>My2026.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyForm.resx">
+      <DependentUpon>MyForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyForm1.resx">
+      <DependentUpon>MyForm1.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyMenu.resx">
+      <DependentUpon>MyMenu.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Practice.resx">
+      <DependentUpon>Practice.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Zus.resx">
+      <DependentUpon>Zus.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Science.resx">
+      <DependentUpon>Science.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sem1.resx">
+      <DependentUpon>Sem1.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sem2.resx">
+      <DependentUpon>Sem2.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sem3.resx">
+      <DependentUpon>Sem3.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sem4.resx">
+      <DependentUpon>Sem4.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sem5.resx">
+      <DependentUpon>Sem5.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sem6.resx">
+      <DependentUpon>Sem6.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sem7.resx">
+      <DependentUpon>Sem7.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Subjects.resx">
+      <DependentUpon>Subjects.h</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

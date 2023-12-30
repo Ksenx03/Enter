@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов\Forms">
+      <UniqueIdentifier>{7c54cf21-d566-427a-9abd-b260be4e0b97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\Semestry">
+      <UniqueIdentifier>{64ecaefb-c1be-4669-8686-cabdad0a3509}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\ZUS">
+      <UniqueIdentifier>{f0caa419-8f50-458c-9daa-02f83b8b095f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MyForm.cpp">
+      <Filter>Файлы ресурсов</Filter>
+    </ClCompile>
+    <ClCompile Include="MyForm1.cpp">
+      <Filter>Файлы ресурсов</Filter>
+    </ClCompile>
+    <ClCompile Include="Info.cpp">
+      <Filter>Файлы ресурсов\Forms</Filter>
+    </ClCompile>
+    <ClCompile Include="Subjects.cpp">
+      <Filter>Файлы ресурсов\Forms</Filter>
+    </ClCompile>
+    <ClCompile Include="Zus.cpp">
+      <Filter>Файлы ресурсов\Forms</Filter>
+    </ClCompile>
+    <ClCompile Include="Library.cpp">
+      <Filter>Файлы ресурсов\Forms</Filter>
+    </ClCompile>
+    <ClCompile Include="Science.cpp">
+      <Filter>Файлы ресурсов\Forms</Filter>
+    </ClCompile>
+    <ClCompile Include="Practice.cpp">
+      <Filter>Файлы ресурсов\Forms</Filter>
+    </ClCompile>
+    <ClCompile Include="Diploma.cpp">
+      <Filter>Файлы ресурсов\Forms</Filter>
+    </ClCompile>
+    <ClCompile Include="MyMenu.cpp">
+      <Filter>Файлы ресурсов\Forms</Filter>
+    </ClCompile>
+    <ClCompile Include="Sem1.cpp">
+      <Filter>Файлы ресурсов\Semestry</Filter>
+    </ClCompile>
+    <ClCompile Include="Sem2.cpp">
+      <Filter>Файлы ресурсов\Semestry</Filter>
+    </ClCompile>
+    <ClCompile Include="Sem3.cpp">
+      <Filter>Файлы ресурсов\Semestry</Filter>
+    </ClCompile>
+    <ClCompile Include="Sem4.cpp">
+      <Filter>Файлы ресурсов\Semestry</Filter>
+    </ClCompile>
+    <ClCompile Include="Sem5.cpp">
+      <Filter>Файлы ресурсов\Semestry</Filter>
+    </ClCompile>
+    <ClCompile Include="Sem6.cpp">
+      <Filter>Файлы ресурсов\Semestry</Filter>
+    </ClCompile>
+    <ClCompile Include="Sem7.cpp">
+      <Filter>Файлы ресурсов\Semestry</Filter>
+    </ClCompile>
+    <ClCompile Include="My2023.cpp">
+      <Filter>Файлы ресурсов\ZUS</Filter>
+    </ClCompile>
+    <ClCompile Include="My2024.cpp">
+      <Filter>Файлы ресурсов\ZUS</Filter>
+    </ClCompile>
+    <ClCompile Include="My2025.cpp">
+      <Filter>Файлы ресурсов\ZUS</Filter>
+    </ClCompile>
+    <ClCompile Include="My2026.cpp">
+      <Filter>Файлы ресурсов\ZUS</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MyForm.h">
+      <Filter>Файлы ресурсов</Filter>
+    </ClInclude>
+    <ClInclude Include="MyForm1.h">
+      <Filter>Файлы ресурсов</Filter>
+    </ClInclude>
+    <ClInclude Include="Info.h">
+      <Filter>Файлы ресурсов\Forms</Filter>
+    </ClInclude>
+    <ClInclude Include="Subjects.h">
+      <Filter>Файлы ресурсов\Forms</Filter>
+    </ClInclude>
+    <ClInclude Include="Zus.h">
+      <Filter>Файлы ресурсов\Forms</Filter>
+    </ClInclude>
+    <ClInclude Include="Library.h">
+      <Filter>Файлы ресурсов\Forms</Filter>
+    </ClInclude>
+    <ClInclude Include="Science.h">
+      <Filter>Файлы ресурсов\Forms</Filter>
+    </ClInclude>
+    <ClInclude Include="Practice.h">
+      <Filter>Файлы ресурсов\Forms</Filter>
+    </ClInclude>
+    <ClInclude Include="Diploma.h">
+      <Filter>Файлы ресурсов\Forms</Filter>
+    </ClInclude>
+    <ClInclude Include="MyMenu.h">
+      <Filter>Файлы ресурсов\Forms</Filter>
+    </ClInclude>
+    <ClInclude Include="Sem1.h">
+      <Filter>Файлы ресурсов\Semestry</Filter>
+    </ClInclude>
+    <ClInclude Include="Sem2.h">
+      <Filter>Файлы ресурсов\Semestry</Filter>
+    </ClInclude>
+    <ClInclude Include="Sem3.h">
+      <Filter>Файлы ресурсов\Semestry</Filter>
+    </ClInclude>
+    <ClInclude Include="Sem4.h">
+      <Filter>Файлы ресурсов\Semestry</Filter>
+    </ClInclude>
+    <ClInclude Include="Sem5.h">
+      <Filter>Файлы ресурсов\Semestry</Filter>
+    </ClInclude>
+    <ClInclude Include="Sem6.h">
+      <Filter>Файлы ресурсов\Semestry</Filter>
+    </ClInclude>
+    <ClInclude Include="Sem7.h">
+      <Filter>Файлы ресурсов\Semestry</Filter>
+    </ClInclude>
+    <ClInclude Include="My2023.h">
+      <Filter>Файлы ресурсов\ZUS</Filter>
+    </ClInclude>
+    <ClInclude Include="My2024.h">
+      <Filter>Файлы ресурсов\ZUS</Filter>
+    </ClInclude>
+    <ClInclude Include="My2025.h">
+      <Filter>Файлы ресурсов\ZUS</Filter>
+    </ClInclude>
+    <ClInclude Include="My2026.h">
+      <Filter>Файлы ресурсов\ZUS</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon.ico">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
